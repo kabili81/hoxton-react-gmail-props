@@ -1,4 +1,8 @@
-export function EmailList() {
+export function EmailList({
+    getFilteredEmails, 
+    toggleRead,
+    toggleStar
+}) {
     return(
         <main className="emails">
         <ul>

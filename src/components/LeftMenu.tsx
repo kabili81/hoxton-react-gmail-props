@@ -1,11 +1,11 @@
-export function LeftMenu(
+export function LeftMenu({
     currentTab,
     setCurrentTab,
     unreadEmails,
     starredEmails,
     hideRead,
     setHideRead
-) {
+}) {
     return(
         
       <nav className="left-menu">
